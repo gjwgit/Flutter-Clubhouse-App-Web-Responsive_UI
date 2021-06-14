@@ -41,204 +41,91 @@ final List<Member> available = [
 
 final List<Room> rooms = [
   Room(
-    name: 'Joe Rogan, Elon Musk & Vladimir Putin',
+    // Keyword/Category
+    name: 'Computer Vision',
+    // Randomly select 2 to display here.
     speakers: [
       Member(
-        name: 'Joe Rogan',
-        profilePicture: 'assets/joe.webp',
+        name: 'azcv',
+        profilePicture: 'assets/azcv.png',
       ),
       Member(
-        name: 'Elon Musk',
-        profilePicture: 'assets/elon.jpg',
-      ),
-      Member(
-        name: 'Vladimir Putin',
-        profilePicture: 'assets/putin.jpeg',
+        name: 'colorize',
+        profilePicture: 'assets/colorize.jpg',
       ),
     ],
+    // Display all of them in this category here.
     audience: [
       Member(
-        name: 'Rob',
+        name: 'azcv',
+        profilePicture: 'assets/azcv.png',
+      ),
+      Member(
+        name: 'cars',
+        profilePicture: 'assets/cars.jpg',
+      ),
+      Member(
+        name: 'colorize',
+        profilePicture: 'assets/colorize.jpg',
+      ),
+      Member(
+        name: 'cvbp',
         profilePicture: 'assets/c1.jpg',
       ),
       Member(
-        name: 'John',
+        name: 'easyocr',
         profilePicture: 'assets/c2.jpg',
       ),
       Member(
-        name: 'Sara',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Tyler',
-        profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Kal',
-        profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Ade',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Minh',
-        profilePicture: 'assets/c2.jpg',
-      ),
-      Member(
-        name: 'Do',
+        name: 'facedetect',
         profilePicture: 'assets/c1.jpg',
       ),
       Member(
-        name: 'Rob',
-        profilePicture: 'assets/c1.jpg',
-      ),
-      Member(
-        name: 'John',
-        profilePicture: 'assets/c2.jpg',
-      ),
-      Member(
-        name: 'Sara',
+        name: 'facematch',
         profilePicture: 'assets/c4.jpeg',
       ),
       Member(
-        name: 'Tyler',
+        name: 'objects',
         profilePicture: 'assets/c5.jpeg',
       ),
       Member(
-        name: 'Kal',
-        profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Ade',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Minh',
+        name: 'opencv',
         profilePicture: 'assets/c2.jpg',
       ),
       Member(
-        name: 'Do',
-        profilePicture: 'assets/c1.jpg',
-      ),
-      Member(
-        name: 'Rob',
-        profilePicture: 'assets/c1.jpg',
-      ),
-      Member(
-        name: 'John',
-        profilePicture: 'assets/c2.jpg',
-      ),
-      Member(
-        name: 'Sara',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Tyler',
-        profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Kal',
-        profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Ade',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Minh',
-        profilePicture: 'assets/c2.jpg',
-      ),
-      Member(
-        name: 'Do',
-        profilePicture: 'assets/c1.jpg',
-      ),
-      Member(
-        name: 'Rob',
-        profilePicture: 'assets/c1.jpg',
-      ),
-      Member(
-        name: 'John',
-        profilePicture: 'assets/c2.jpg',
-      ),
-      Member(
-        name: 'Sara',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Tyler',
-        profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Kal',
-        profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Ade',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Minh',
-        profilePicture: 'assets/c2.jpg',
-      ),
-      Member(
-        name: 'Do',
+        name: 'webcam',
         profilePicture: 'assets/c1.jpg',
       ),
     ],
   ),
   Room(
-    name: 'Personal Brand',
+    name: 'Natural Language Processing',
     speakers: [
       Member(
-        name: 'Rob',
-        profilePicture: 'assets/c1.jpg',
+        name: 'azspeech',
+        profilePicture: 'assets/azspeech.png',
       ),
       Member(
-        name: 'John',
-        profilePicture: 'assets/c2.jpg',
-      ),
-      Member(
-        name: 'Sara',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Tyler',
-        profilePicture: 'assets/c5.jpeg',
+        name: 'deepspeech',
+        profilePicture: 'assets/deepspeech.png',
       ),
     ],
     audience: [
       Member(
-        name: 'Rob',
+        name: 'azspeech',
         profilePicture: 'assets/c1.jpg',
       ),
       Member(
-        name: 'John',
+        name: 'aztext',
         profilePicture: 'assets/c2.jpg',
       ),
       Member(
-        name: 'Sara',
-        profilePicture: 'assets/c4.jpeg',
+        name: 'deepspeech',
+        profilePicture: 'assets/deepspeech.png',
       ),
       Member(
-        name: 'Tyler',
+        name: 'pyspeech',
         profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Kal',
-        profilePicture: 'assets/c5.jpeg',
-      ),
-      Member(
-        name: 'Ade',
-        profilePicture: 'assets/c4.jpeg',
-      ),
-      Member(
-        name: 'Minh',
-        profilePicture: 'assets/c2.jpg',
-      ),
-      Member(
-        name: 'Do',
-        profilePicture: 'assets/c1.jpg',
       ),
     ],
   ),
